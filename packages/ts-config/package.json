@@ -47,8 +47,8 @@
 		"check-update": "cliff-jumper --dry-run"
 	},
 	"dependencies": {
-		"tslib": "^2.6.2",
-		"typescript": "^5.4.5"
+		"tslib": "^2.6.3",
+		"typescript": "~5.4.5"
 	},
 	"files": [
 		"src",
@@ -80,7 +80,7 @@
 		"access": "public"
 	},
 	"devDependencies": {
-		"@favware/cliff-jumper": "^3.0.3",
+		"@favware/cliff-jumper": "^4.0.2",
 		"@sapphire/eslint-config": "workspace:^",
 		"@sapphire/eslint-plugin-result": "workspace:^",
 		"@vitest/coverage-v8": "^1.6.0",

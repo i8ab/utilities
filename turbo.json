@@ -1,6 +1,6 @@
 {
 	"$schema": "https://turbo.build/schema.json",
-	"pipeline": {
+	"tasks": {
 		"build": {
 			"dependsOn": ["^build"],
 			"outputs": ["dist/**"]
@@ -44,6 +44,10 @@
 		"build:dynamic-side-effects": {
 			"dependsOn": ["@sapphire/iterator-utilities#build", "@sapphire/utilities#build"],
 			"outputs": ["package.json"]
+		},
+		"gen-index": {
+			"dependsOn": [],
+			"outputs": ["packages/*/src/index.ts"]
 		},
 		"docs": {
 			"dependsOn": [

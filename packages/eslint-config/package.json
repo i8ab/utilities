@@ -1,6 +1,6 @@
 {
 	"name": "@sapphire/eslint-config",
-	"version": "5.0.4",
+	"version": "5.0.5",
 	"description": "Standard ESLint config for the Sapphire Community",
 	"author": "@sapphire",
 	"license": "MIT",
@@ -25,13 +25,13 @@
 		"check-update": "cliff-jumper --dry-run"
 	},
 	"dependencies": {
-		"@typescript-eslint/eslint-plugin": "^7.9.0",
-		"@typescript-eslint/parser": "^7.9.0",
+		"@typescript-eslint/eslint-plugin": "^7.13.1",
+		"@typescript-eslint/parser": "^7.13.1",
 		"eslint": "^8.57.0",
 		"eslint-config-prettier": "^9.1.0",
 		"eslint-plugin-prettier": "^5.1.3",
-		"prettier": "^3.2.5",
-		"typescript": "^5.4.5"
+		"prettier": "^3.3.2",
+		"typescript": "~5.4.5"
 	},
 	"repository": {
 		"type": "git",
@@ -62,9 +62,9 @@
 		"access": "public"
 	},
 	"devDependencies": {
-		"@favware/cliff-jumper": "^3.0.3",
+		"@favware/cliff-jumper": "^4.0.2",
 		"@vitest/coverage-v8": "^1.6.0",
-		"tsup": "^8.0.2",
+		"tsup": "^8.1.0",
 		"typedoc-json-parser": "^10.0.0",
 		"vitest": "^1.6.0"
 	}
